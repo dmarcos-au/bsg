@@ -10,7 +10,7 @@ export default function ParallaxImage() {
     const handleScroll = () => {
       if (!imageRef.current) return
       const scrolled = window.scrollY
-      const rate = scrolled * 0.15
+      const rate = scrolled * 0.05
       imageRef.current.style.transform = `translateY(${rate}px)`
     }
 
@@ -27,7 +27,7 @@ export default function ParallaxImage() {
           alt="Intenant App Interface"
           width={400}
           height={800}
-          className="relative z-10"
+          className="relative z-1"
           priority
         />
       </div>
