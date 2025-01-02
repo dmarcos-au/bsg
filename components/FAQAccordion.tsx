@@ -22,8 +22,12 @@ export function FAQAccordion({ items }: FAQAccordionProps) {
     <Accordion type="single" collapsible className="w-full">
       {items.map((item, index) => (
         <AccordionItem key={index} value={`item-${index}`}>
-          <AccordionTrigger>{item.question}</AccordionTrigger>
-          <AccordionContent>{item.answer}</AccordionContent>
+          <AccordionTrigger className="transition-all duration-300 ease-out hover:text-gray-700">
+            {item.question}
+          </AccordionTrigger>
+          <AccordionContent>
+            {item.answer}
+          </AccordionContent>
         </AccordionItem>
       ))}
     </Accordion>
