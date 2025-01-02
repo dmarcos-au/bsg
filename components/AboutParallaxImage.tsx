@@ -23,8 +23,9 @@ export default function AboutParallaxImage() {
   return (
     <div ref={containerRef} className="relative overflow-hidden h-[400px]">
       <div ref={imageRef} className="relative transition-transform duration-200 ease-out">
+        {/* Update the Image src */}
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gallery-2-giViDvDqNlD8jCugJhaK132ywtN8Hw.png"
+          src="/images/about-image.jpg"
           alt="Building Spaces Group Team Collaboration"
           width={500}
           height={333}

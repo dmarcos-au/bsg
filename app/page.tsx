@@ -1,5 +1,3 @@
-"use client"; // This is a client component 👈🏽
-
 import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle2 } from 'lucide-react'
@@ -11,11 +9,11 @@ export default function Home() {
   const faqItems = [
     {
       question: "What is Custom App Branding per Customer?",
-      answer: "We customize branding within our app so that when tenants log on, they see their own company&apos;s logo - creating a seamless, integrated experience that feels like their own company&apos;s system."
+      answer: "We customize branding within our app so that when tenants log on, they see their own company&#39;s logo - creating a seamless, integrated experience that feels like their own company&#39;s system."
     },
     {
       question: "What are the pricing options?",
-      answer: "We offer flexible pricing tailored to your building&apos;s specific needs. Contact our sales team for a personalized quote that aligns with your requirements and budget."
+      answer: "We offer flexible pricing tailored to your building&#39;s specific needs. Contact our sales team for a personalized quote that aligns with your requirements and budget."
     },
     {
       question: "How can I apply your product to an entire building?",
@@ -23,7 +21,7 @@ export default function Home() {
     },
     {
       question: "How do you address user privacy concerns?",
-      answer: "We prioritize user privacy with robust security measures and full compliance with data protection regulations, ensuring your tenants&apos; information is always safe and secure."
+      answer: "We prioritize user privacy with robust security measures and full compliance with data protection regulations, ensuring your tenants&#39; information is always safe and secure."
     },
     {
       question: "Is there support for building managers using Intenant?",
@@ -58,7 +56,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-16 text-center flex items-center justify-center gap-4">
             Our Product 
             <Image 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/intenant-lFW6wKB5O2VQLP09JshsRJSiSLgArR.svg"
+              src="/images/intenant-logo.svg"
               alt="Intenant Logo"
               width={157}
               height={40}
@@ -119,7 +117,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-16 text-center">Let&apos;s Discuss Your Project</h2>
+          <h2 className="text-4xl font-bold mb-16 text-center">Let&#39s Discuss Your Project</h2>
           <div className="max-w-2xl mx-auto">
             <form className="space-y-6">
               <input type="email" placeholder="Your email" className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required />

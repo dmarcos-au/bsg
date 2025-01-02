@@ -20,8 +20,9 @@ export default function HeroParallaxImage() {
 
   return (
     <div ref={imageRef} className="relative transition-transform duration-200 ease-out">
+      {/* The update is already present in the existing code, no changes needed */}
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/machine-home-gP0lsRjlXwtgcY7ZPFjzzyeHpeSoEI.png"
+        src="/images/machine-home.png"
         alt="Secure Building Management System"
         width={500}
         height={400}

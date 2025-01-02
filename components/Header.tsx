@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <Image 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-4-LH3QegbkwR4wALc09rUZDPCmQhmETy.svg" 
+              src="/images/new-logo.svg" 
               alt="Building Spaces Group Logo" 
               width={180} 
               height={40} 

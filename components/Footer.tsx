@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Image 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-4-LH3QegbkwR4wALc09rUZDPCmQhmETy.svg" 
+              src="/images/new-logo.svg" 
               alt="Building Spaces Group Logo" 
               width={180} 
               height={40} 
@@ -20,9 +20,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-white transition duration-300">Home</Link></li>
-              <li><Link href="/product" className="text-gray-400 hover:text-white transition duration-300">Our Product</Link></li>
+              <li><Link href="/#product" className="text-gray-400 hover:text-white transition duration-300">Our Product</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-white transition duration-300">About</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-white transition duration-300">Contact</Link></li>
+              <li><Link href="/#contact" className="text-gray-400 hover:text-white transition duration-300">Contact</Link></li>
             </ul>
           </div>
           <div>
