@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle2 } from 'lucide-react'
-import ParallaxImage from './components/ParallaxImage'
-import HeroParallaxImage from './components/HeroParallaxImage'
-import { FAQAccordion } from './components/FAQAccordion'
+import ParallaxImage from '@/components/ParallaxImage'
+import HeroParallaxImage from '@/components/HeroParallaxImage'
+import { FAQAccordion } from '@/components/FAQAccordion'
 
 export default function Home() {
   const faqItems = [

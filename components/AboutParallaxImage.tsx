@@ -25,7 +25,7 @@ export default function AboutParallaxImage() {
       <div ref={imageRef} className="relative transition-transform duration-200 ease-out">
         {/* Update the Image src */}
         <Image
-          src="/images/about-image.jpg"
+          src="/images/about-image.png"
           alt="Building Spaces Group Team Collaboration"
           width={500}
           height={333}

@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect } from 'react'
@@ -32,7 +34,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <Image 
-              src="/images/new-logo.svg" 
+              src="/images/logo.svg" 
               alt="Building Spaces Group Logo" 
               width={180} 
               height={40} 

@@ -1,4 +1,4 @@
-import AboutParallaxImage from '../components/AboutParallaxImage'
+import AboutParallaxImage from '@/components/AboutParallaxImage'
 
 export default function About() {
   return (
